@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GearForge — 3D gear generator for Android. Parametric, 3D-printable gears with export to STL, 3MF, STEP, IGES, SVG and DXF." />
+  <title>GearForge — 3D Gear Generator</title>
+  <style>
+    :root {
+      --bg: #f5f8fb;
+      --surface: #ffffff;
+      --ink: #1a2b36;
+      --muted: #52616d;
+      --accent: #00658c;
+      --border: #e2eaf1;
+      --radius: 14px;
+      --shadow: 0 2px 10px rgba(0, 45, 72, 0.07);
+      --maxw: 720px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); }
+
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+    header {
+      background: linear-gradient(135deg, #003a53 0%, #00658c 60%, #0087b8 100%);
+      color: #eaf6ff;
+      padding: 48px 0 40px;
+    }
+
+    header h1 { margin: 0; font-size: 30px; letter-spacing: -0.01em; }
+
+    header p { margin: 6px 0 0; color: #b9e0f5; font-size: 16px; }
+
+    main { padding: 34px 0 10px; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 26px 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 { font-size: 17px; margin: 0 0 10px; }
+
+    ul.links { list-style: none; margin: 0; padding: 0; }
+
+    ul.links li {
+      border-top: 1px solid var(--border);
+      padding: 12px 0;
+    }
+
+    ul.links li:first-child { border-top: 0; padding-top: 0; }
+
+    ul.links li:last-child { padding-bottom: 0; }
+
+    .label { display: block; color: var(--muted); font-size: 13px; }
+
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 8px 0 44px;
+    }
+
+    .sv { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>GearForge</h1>
+      <p>3D Gear Generator for Android</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>About</h2>
+      <p>GearForge designs parametric, 3D-printable gears on your phone: 14 gear types,
+        live geometry validation and export to STL, 3MF, STEP, IGES, SVG and DXF.
+        Everything runs on your device — no account and no sign-in.</p>
+      <p class="sv" lang="sv">GearForge konstruerar parametriska, 3D-utskrivbara kugghjul
+        i mobilen: 14 kugghjulstyper, validering i realtid och export till STL, 3MF, STEP,
+        IGES, SVG och DXF. Allt körs lokalt på enheten — inget konto och ingen inloggning.</p>
+    </section>
+
+    <section class="card">
+      <h2>GearForge</h2>
+      <ul class="links">
+        <li>
+          <span class="label">Android / Google Play</span>
+          <a href="https://play.google.com/store/apps/details?id=com.gearforge.geargenerator">play.google.com — GearForge</a>
+        </li>
+        <li>
+          <span class="label">Privacy policy / Integritetspolicy</span>
+          <a href="/gearforge/privacy-policy">sebwith.github.io/gearforge/privacy-policy</a>
+        </li>
+        <li>
+          <span class="label">Support</span>
+          <a href="mailto:gearforge.app@gmail.com">gearforge.app@gmail.com</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>© 2026 GearForge · <a href="/app-ads.txt">app-ads.txt</a></p>
+  </footer>
+</body>
+</html>
